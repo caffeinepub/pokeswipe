@@ -103,6 +103,13 @@ export function MainApp() {
             </button>
           ))}
         </div>
+        {/* Creator credit */}
+        <p className="text-center text-[10px] text-muted-foreground/50 pb-1.5 tracking-wide">
+          Made by{" "}
+          <span className="text-muted-foreground/75 font-medium">
+            Kartik Deshwal
+          </span>
+        </p>
       </nav>
     </div>
   );

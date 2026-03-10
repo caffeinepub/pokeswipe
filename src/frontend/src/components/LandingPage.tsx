@@ -144,16 +144,24 @@ export function LandingPage() {
       </main>
 
       {/* Footer */}
-      <footer className="relative z-10 text-center py-6 text-muted-foreground text-sm">
-        © {new Date().getFullYear()}. Built with ❤️ using{" "}
-        <a
-          href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}
-          className="text-primary hover:underline"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          caffeine.ai
-        </a>
+      <footer className="relative z-10 text-center py-6 text-muted-foreground text-sm space-y-1">
+        <p>
+          Created by{" "}
+          <span className="text-foreground font-semibold tracking-wide">
+            Kartik Deshwal
+          </span>
+        </p>
+        <p>
+          © {new Date().getFullYear()}. Built with ❤️ using{" "}
+          <a
+            href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(window.location.hostname)}`}
+            className="text-primary hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            caffeine.ai
+          </a>
+        </p>
       </footer>
     </div>
   );
